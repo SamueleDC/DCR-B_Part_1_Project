@@ -22,7 +22,6 @@ Then two Python scripts, [Database_load](Database_load.py) and [Search_engine](S
 ## Tests
 Finally, to test the effectiveness of the search engine, various types of executions were done, resulting in having: 
 * A snapshot of a search for a "non-existing" string [No_string_found](No_string_found.png)
-* A snapshot of the search for a “non existing” string [No_string_found](No_string_found.png)
 * A snapshot of the search for a string matching at least two file names, but not found in any searchable file [Only_file_name](Only_file_name.png)
 * A snapshot of the search for a string matching at least one file name and contained in at least one searchable file, with the counts of the occurrencies in the file(s) [File_name_and_searchable_file](File_name_and_searchable_file.png)
 * A snapshot of the search for a string that does not match a file name but is found in at least one searchable file, with the counts of the occurrencies in the file(s) [Only_searchable_file](Only_searchable_file.png)
