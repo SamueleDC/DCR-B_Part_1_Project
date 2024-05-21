@@ -7,7 +7,7 @@ First, a subtree with a depth of at least 6 was constructed, which included a sp
 
 
 ## Storage engine
-Mysql was chosen as the storage engine for the subtree's files, and the database schema can be viewed in [Database_schema.sql](Database_schema.sql). Furthermore, to optimize the search, various indexes were generated, which may be examined in [Index_creation](Index_creation.sql) and [Show_index](Show_index.png).
+Mysql was chosen as the storage engine for the subtree's files, and the database schema can be viewed in [Database_schema](Database_schema.sql). Furthermore, to optimize the search, various indexes were generated, which may be examined in [Index_creation](Index_creation.sql) and [Show_index](Show_index.png).
 
 ## Table load & Search_engine
 Then two Python scripts, [Database_load](Database_load.py) and [Search_engine](Search_engine.py), were written, one to load the content of the previously mentioned subtree into the database and the other to perform a search based on the text entered by the user, which returns:
