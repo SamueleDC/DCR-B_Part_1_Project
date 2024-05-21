@@ -1,65 +1,82 @@
-DCR-B\UK
-DCR-B\UK\Executive
-DCR-B\UK\Judiciary
-DCR-B\UK\Legislature
+|-- DCR-B/
+    |-- UK/
+        |-- Executive/
+        |-- Judiciary/
+        |-- Legislature/
 
-DCR-B\UK\Executive\Ministers and Departments
-DCR-B\UK\Executive\Government of the United Kingdom - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments
-DCR-B\UK\Executive\Ministers and Departments\Ministers
-DCR-B\UK\Executive\Ministers and Departments\Departments\Cabinet Office - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments\Department for Culture, Media and Sport - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments\Department for Education - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments\Department for Science, Innovation and Technology - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments\Department for Work and Pensions - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments\HM Treasury - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Departments\Parliamentary Private Secretary to the Prime Minister - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\Deputy Prime Minister of the United Kingdom - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\First Lord of the Treasury - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\First Secretary of State - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\Minister for the Civil Service - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\Minister for the Union - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\Ministry of Justice (United Kingdom) - Wikipedia.html
-DCR-B\UK\Executive\Ministers and Departments\Ministers\Prime Minister of the United Kingdom - Wikipedia.html
+        |-- Executive/
+            |-- Ministers and Departments/
+            |-- Government of the United Kingdom - Wikipedia.html
 
-DCR-B\UK\Judiciary\Legal systems
-DCR-B\UK\Judiciary\Law of the United Kingdom - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals
-DCR-B\UK\Judiciary\Legal systems\English law - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\European Union (Withdrawal) Act 2018 - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Law of Northern Ireland - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Scots law - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Welsh law - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Court of Session - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Courts of England and Wales - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Courts of Northern Ireland - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Crown Court - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Employment Appeal Tribunal - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\High Court of Justice - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\High Court of Justiciary - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Judicial Committee of the Privy Council - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Sheriff court - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Special Immigration Appeals Commission - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Supreme Court of the United Kingdom - Wikipedia.html
-DCR-B\UK\Judiciary\Legal systems\Courts and Tribunals\Upper Tribunal - Wikipedia.html
+            |-- Ministers and Departments/
+                |-- Departments/
+                |-- Ministers/
 
-DCR-B\UK\Legislature\Composition and Powers
-DCR-B\UK\Legislature\Parliament of the United Kingdom - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees
-DCR-B\UK\Legislature\Composition and Powers\House of Commons of the United Kingdom - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\House of Lords - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\King-in-Parliament - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Business and Trade Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Defence Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Energy Security and Net Zero Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Environment, Food and Rural Affairs Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\European Scrutiny Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Foreign Affairs Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Health and Social Care Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Justice Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Levelling Up, Housing and Communities Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Liaison Committee (House of Commons of the United Kingdom) - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Science, Innovation and Technology Select Committee - Wikipedia.html
-DCR-B\UK\Legislature\Composition and Powers\Committees\Scottish Affairs Select Committee - Wikipedia.html
+                |-- Departments/
+                    |-- Cabinet Office - Wikipedia.html
+                    |-- Department for Culture, Media and Sport - Wikipedia.html
+                    |-- Department for Education - Wikipedia.html
+                    |-- Department for Science, Innovation and Technology - Wikipedia.html
+                    |-- Department for Work and Pensions - Wikipedia.html
+                    |-- HM Treasury - Wikipedia.html
+                    |-- Parliamentary Private Secretary to the Prime Minister - Wikipedia.html
+                |-- Ministers/
+                    |-- Deputy Prime Minister of the United Kingdom - Wikipedia.html
+                    |-- First Lord of the Treasury - Wikipedia.html
+                    |-- First Secretary of State - Wikipedia.html
+                    |-- Minister for the Civil Service - Wikipedia.html
+                    |-- Minister for the Union - Wikipedia.html
+                    |-- Ministry of Justice (United Kingdom) - Wikipedia.html
+                    |-- Prime Minister of the United Kingdom - Wikipedia.html
 
-DCR-B\UK\Legislature\Composition and Powers\Committees\Work and Pensions Select Committee - Wikipedia.html
+        |-- Judiciary/
+            |-- Legal systems/
+            |-- Law of the United Kingdom - Wikipedia.html
+
+            |-- Legal systems/
+                |-- Courts and Tribunals/
+                |-- English law - Wikipedia.html
+                |-- European Union (Withdrawal) Act 2018 - Wikipedia.html
+                |-- Law of Northern Ireland - Wikipedia.html
+                |-- Scots law - Wikipedia.html
+                |-- Welsh law - Wikipedia.html
+
+                |-- Courts and Tribunals/
+                    |-- Court of Session - Wikipedia.html
+                    |-- Courts of England and Wales - Wikipedia.html
+                    |-- Courts of Northern Ireland - Wikipedia.html
+                    |-- Crown Court - Wikipedia.html
+                    |-- Employment Appeal Tribunal - Wikipedia.html
+                    |-- High Court of Justice - Wikipedia.html
+                    |-- High Court of Justiciary - Wikipedia.html
+                    |-- Judicial Committee of the Privy Council - Wikipedia.html
+                    |-- Sheriff court - Wikipedia.html
+                    |-- Special Immigration Appeals Commission - Wikipedia.html
+                    |-- Supreme Court of the United Kingdom - Wikipedia.html
+                    |-- Upper Tribunal - Wikipedia.html
+
+        |-- Legislature/
+            |-- Composition and Powers/
+            |-- Parliament of the United Kingdom - Wikipedia.html
+
+            |-- Composition and Powers/
+                |-- Committees/
+                |-- House of Commons of the United Kingdom - Wikipedia.html
+                |-- House of Lords - Wikipedia.html
+                |-- King-in-Parliament - Wikipedia.html
+
+                |-- Committees/
+                    |-- Business and Trade Select Committee - Wikipedia.html
+                    |-- Defence Select Committee - Wikipedia.html
+                    |-- Energy Security and Net Zero Select Committee - Wikipedia.html
+                    |-- Environment, Food and Rural Affairs Select Committee - Wikipedia.html
+                    |-- European Scrutiny Committee - Wikipedia.html
+                    |-- Foreign Affairs Select Committee - Wikipedia.html
+                    |-- Health and Social Care Select Committee - Wikipedia.html
+                    |-- Justice Select Committee - Wikipedia.html
+                    |-- Levelling Up, Housing and Communities Committee - Wikipedia.html
+                    |-- Liaison Committee (House of Commons of the United Kingdom) - Wikipedia.html
+                    |-- Science, Innovation and Technology Select Committee - Wikipedia.html
+                    |-- Scottish Affairs Select Committee - Wikipedia.html
+                    |-- Work and Pensions Select Committee - Wikipedia.html
+
