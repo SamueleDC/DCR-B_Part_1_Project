@@ -20,7 +20,7 @@ def get_file_content(file_path):
                 soup = BeautifulSoup(file, 'html.parser')
                 return soup.get_text()
         except Exception as e:
-            print(f"Errore nella lettura del file {file_path}: {e}")
+            print(f"Error reading the file {file_path}: {e}")
             return None
     return None
 
@@ -29,7 +29,7 @@ def get_file_size(file_path):
     try:
         return os.path.getsize(file_path)
     except Exception as e:
-        print(f"Errore nell'ottenere la dimensione del file {file_path}: {e}")
+        print(f"Error obtaining the file size {file_path}: {e}")
         return None
 
 # Insert values in the table
@@ -70,10 +70,10 @@ try:
             insert_into_mysql(cursor, full_path, file_name, file_type, content if content else None, depth, size)
 
     conn.commit() # One single transaction for all operations
-    print("Dati inseriti con successo nella tabella MySQL.")
+    print("Success in importing the data.")
 
 except Exception as e:
-    print("Si è verificato un errore:", e)
+    print("An error occurred:", e)
     conn.rollback()
 
 finally:
