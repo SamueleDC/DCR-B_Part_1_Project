@@ -1,3 +1,4 @@
+DROP SCHEMA IF exists search_facility;
 CREATE SCHEMA search_facility;
 use search_facility;
 DROP TABLE IF EXISTS S_FILES;
