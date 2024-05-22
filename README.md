@@ -1,4 +1,4 @@
-# DCR-B_Part_1_Project
+# DCR-B_Part_1_Project: Specifics
 The purpose of the project was to build a search facility on a subtree of a local file sysstem.
 
 
