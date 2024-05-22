@@ -18,7 +18,7 @@ Then two Python scripts, [Database_load](Database_load.py) and [Search_engine](S
 4. The occurences of that string in a searchable file
 5. the depth of that file
 
-N.B.: The indexing was done starting from ***"C:/Users/dicug/Desktop"***
+N.B.: The indexing was done starting from ***"C:/Users/dicug/Desktop"***, so the depth is calculated from this.
 
 
 ## Tests
