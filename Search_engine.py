@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[22]:
+# In[54]:
 
 
 import mysql.connector
@@ -16,7 +16,11 @@ def search_word_in_db(word):
         )
         cursor = conn.cursor()
 
-        # Query to find tuples and count occurences
+        # Prepare the word with wildcards for LIKE and convert to lowercase
+        like_word = f"%{word}%"
+        lowercase_word = word.lower()
+
+        # Query to find tuples and count occurrences
         query = """
         SELECT 
             FULL_PATH_NAME, FILE_NAME, FILE_TYPE, DEPTH,
@@ -24,10 +28,10 @@ def search_word_in_db(word):
         FROM 
             S_FILES
         WHERE 
-            MATCH(FILE_NAME, CONTENT) AGAINST (%s IN BOOLEAN MODE)
+            LOWER(FILE_NAME) LIKE %s OR LOWER(CONTENT) LIKE %s
         HAVING occurrences > 0 OR occurrences IS NULL;
         """
-        cursor.execute(query, (word, word, f'+{word}*'))
+        cursor.execute(query, (word, word, like_word, like_word))
         results = cursor.fetchall()
 
         # Print results
@@ -52,6 +56,6 @@ def search_word_in_db(word):
         if 'conn' in locals():
             conn.close()
 
-search_word = input("Enter the word to search for:")
+search_word = input("Enter the word to search for: ")
 search_word_in_db(search_word)
 
