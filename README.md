@@ -3,7 +3,7 @@ The purpose of the project was to build a search facility on a subtree of a loca
 
 
 ## Subtree specification
-First, a subtree with a depth of at least 6 was constructed, which included a special subtree designated "DCRB" with a depth of at least 4. Inside the DCRB subtree, 50 files retrieved from Wikipedia have been added. The distribution can be seen in [Listing_DCRB_directory](Listing_DCRB_directory.txt).
+First, a subtree with a depth of at least 6 was constructed, which included a special subtree designated "DCRB" with a depth of at least 4. Inside the DCRB subtree, 50 files retrieved from Wikipedia have been added. The distribution of the subtree can be seen in [Listing_DCRB_directory](Listing_DCRB_directory.txt).
 
 
 ## Storage engine
@@ -17,6 +17,8 @@ Then two Python scripts, [Database_load](Database_load.py) and [Search_engine](S
 3. If the string is found with a file, the number of occurences in the file of the string
 4. The occurences of that string in a searchable file
 5. the depth of that file
+
+N.B.: The indexing was done starting from ***"C:/Users/dicug/Desktop"***
 
 
 ## Tests
