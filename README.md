@@ -28,7 +28,6 @@ Finally, to test the effectiveness of the search engine, various types of execut
 * A snapshot of the search for a string matching at least one file name and contained in at least one searchable file, with the counts of the occurrencies in the file(s) [File_name_and_searchable_file](File_name_and_searchable_file.png)
 * A snapshot of the search for a string that does not match a file name but is found in at least one searchable file, with the counts of the occurrencies in the file(s) [Only_searchable_file](Only_searchable_file.png)
 
-## Extras
-Two additional things in the repository:
-* A snapshot of the table **s_files** after the execution of ***Database_load.py***
-* Another version of search_engine.py, but it wasn't used for searches.
+## Extra
+One additional thing in the repository:
+* Another version of search_engine.py, but it wasn't used for searches, too much unrealiable [Alternative_search_engine](Alternative_search_engine.py).
