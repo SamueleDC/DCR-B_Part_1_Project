@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[36]:
+# In[22]:
 
 
 import mysql.connector
@@ -24,7 +24,8 @@ def search_word_in_db(word):
         FROM 
             S_FILES
         WHERE 
-            MATCH(FILE_NAME, CONTENT) AGAINST (%s IN BOOLEAN MODE);
+            MATCH(FILE_NAME, CONTENT) AGAINST (%s IN BOOLEAN MODE)
+        HAVING occurrences > 0 OR occurrences IS NULL;
         """
         cursor.execute(query, (word, word, f'+{word}*'))
         results = cursor.fetchall()
@@ -33,7 +34,12 @@ def search_word_in_db(word):
         if results:
             print(f"Found {len(results)} tuples containing the word '{word}':")
             for row in results:
-                print(f"Path: {row[0]}, File Name: {row[1]}, File Type: {row[2]}, Depth: {row[3]}, Occurrences: {row[4]}")
+                occurrences = row[4]
+                if occurrences is None:
+                    occurrences_str = "None"
+                else:
+                    occurrences_str = str(occurrences)
+                print(f"Path: {row[0]}, File Name: {row[1]}, File Type: {row[2]}, Depth: {row[3]}, Occurrences: {occurrences_str}")
         else:
             print(f"No tuples found containing the word '{word}'.")
 
