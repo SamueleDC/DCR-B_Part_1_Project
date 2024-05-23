@@ -24,7 +24,7 @@ def search_word_in_db(word):
         FROM 
             S_FILES
         WHERE 
-            MATCH(FILE_NAME) AGAINST (%s IN BOOLEAN MODE) or MATCH(CONTENT) AGAINST (%s IN BOOLEAN MODE)
+            MATCH(FILE_NAME, CONTENT) AGAINST (%s IN BOOLEAN MODE)
         HAVING occurrences > 0 OR occurrences IS NULL;
         """
         cursor.execute(query, (word, word, f'+{word}*'))
