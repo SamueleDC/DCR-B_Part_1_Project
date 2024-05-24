@@ -2,9 +2,9 @@ PATH TO DCR-B: "C:/Users/dicug/Desktop/Projects/DCR-B/
 
 |-- DCR-B/
     |-- UK/
-        |-- Executive/
-        |-- Judiciary/
-        |-- Legislature/
+        |-- UK -- Executive/
+        |-- UK -- Judiciary/
+        |-- UK -- Legislature/
 
         |-- Executive/
             |-- Ministers and Departments/
